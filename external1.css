@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+header {
+    background: #05ca05;
+    color: black;
+    padding: 20px 10px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+header p {
+    margin: 5px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: rgb(218, 139, 112);
+    padding: 10px;
+}
+nav a {
+    color: black;
+    text-decoration:solid;
+    margin: 15px 50px 10px 20px;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+nav a:hover {
+    background: goldenrod;
+}
+.banner{
+    background-image: URL("C:\MERN\HTML\mrcew1.png");
+    height: 400px;
+}
+.container {
+    width: 100;
+    margin: 0;
+
+}
+.section {
+    margin: 0;
+    background-color: aqua;
+}
+.section h2 {
+    color: rgb(192, 16, 92);
+}
+footer {
+    background: hwb(286 7% 18% / 0.267);
+    color: hwb(0 8% 11%);
+    text-align: center;
+    padding: 10px 0;
+}
